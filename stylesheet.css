@@ -1,4 +1,9 @@
 .title {
     color: #02ccba;
-    font-size:4000px;
   }
+
+@media(max-width:670px) {
+    .title {
+        color:#ff0000
+    }
+}
