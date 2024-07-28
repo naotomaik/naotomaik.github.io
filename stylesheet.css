@@ -1,3 +1,9 @@
 .title {
     color: #02ccba;
   }
+
+@media(max-width:670px) {
+    .img {
+        width:50%
+    }
+}
