@@ -2,7 +2,7 @@
     color: #ff0000;
   }
 
-@media(max-width:670px) {
+@media(max-width:767px) {
     .title {
         color:#ff0000
     }
