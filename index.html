@@ -1,65 +1,122 @@
-<!doctype html>
-<html>
-  <head>
-    <title>木全直人のwebサイト</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="stylesheet.css">
-  </head>
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.header {
+height: 50px;
+background-color:#cfeded;
+}
+
+.header-logo {
+  font-size: 40px;
+}
 
 
-  <body>
+.onsen {
+  width: 300px;
+  height: 300px;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index:4;
+  margin-right: 10px;
+  margin-top: 10px;
+}
 
-  <div class="header">
-  <div class="header-logo">木全直人のWEBサイト</div>
+.memo {
+  display:inline-block;
+  background-color: #deb887;
+  float:left;
+  position: relative;
+  z-index: 4;
+  padding: 10px 15px 15px 10px;
+  margin: 10px 0 0 10px;
+  font-size: 20px;
+  box-shadow: #000 5px 5px;
+}
 
-  </div>
+.memo img {
+width: 250px;
+height: 150px;
+margin-top: 150px;
+}
+
+.memo h3 {
+  text-align: center;
+}
+
+.profile img{
+  display: inline-block;
+  width: 300px;
+  margin:0 auto;
+  padding: 0 30px;
+}
+
+.profile {
+  margin: 0 auto;
+  width: 500px;
+  position: relative;
+  z-index: 3;
+  flex-direction: column;
   
+}
 
-  <div class="top-main">
- <div class="memo">
- <h3>プロフィール詳細</h3>
- <ul>
- <li>年齢:25歳</li>
- <li>好きな食べ物:寿司と中華</li>
- <li>趣味:温泉</li>
- <li>彼女:みっこ</li>
- </ul>
- </div>
+.profile h1 {
+  text-align: center;
+  font-size: 60px;
+  background-color: green;
+  width: 300px;
+  margin: 0 auto;
+  color: white;
+  text-shadow:
+    1px 1px #aaa,
+    2px 2px #999,
+    3px 3px #888,
+    4px 4px #777,
+    5px 5px #666,
+    6px 6px #555,
+    7px 7px 4px #000;
+}
 
-  <div class="profile">
-  <h1>製作者</h1>
-  <img src="ore.jpg">
-  <h2>木全直人</h2>
-  </div>
+.profile h2{
+  text-align: center;
+  font-size: 50px;
+  background-color:#8b4513;
+  width: 300px;
+  margin: 0 auto;
+  color: white;
+  line-height: px;
+}
+
+.top-main {
+background-image:url(mori.jpg);
+background-size: cover;
+height: 592px;
+position: relative;
+z-index: 1;
+}
+.gizi {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
 
+.middle-main {
+background-color: aliceblue;
+height: 500px;
+}
 
+.bottom-main {
+background-color:whitesmoke;
+height: 500px;
+}
 
-
-  </div>
-
-
-
-
-  <div class="middle-main">
-  
-
-
-  </div>
-
-
-
-  <div class="bottom-main">
-  
-
-  </div>
-
-
-
-
-  <div class="footer">
-
-  </div>
-
-  </body>
-</html>
+.footer {
+background-color:#cfeded;
+height: 50px;
+}
