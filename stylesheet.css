@@ -1,9 +1,78 @@
-.title {
-    color: #ff1493;
-  }
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 
-@media(max-width:767px) {
-    .title {
-        color:#ff8c00
-    }
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.header {
+height: 50px;
+background-color:#cfeded;
+}
+
+.header-logo {
+  font-size: 40px;
+}
+
+.memo {
+  display:inline-block;
+  background-color: aliceblue;
+  float:left
+}
+
+.profile img{
+  display: block;
+  width: 300px;
+  margin:0 auto;
+}
+
+.profile {
+  background-color: rgba(255,255,255,0.5)
+}
+
+.profile h1 {
+  text-align: center;
+  font-size: 60px;
+  background-color: green;
+  width: 300px;
+  margin: 0 auto;
+  color: white;
+  text-shadow:
+    1px 1px #aaa,
+    2px 2px #999,
+    3px 3px #888,
+    4px 4px #777,
+    5px 5px #666,
+    6px 6px #555,
+    7px 7px 4px #000;
+}
+
+.profile h2{
+  text-align: center;
+  font-size: 50px;
+  background-color:#8b4513;
+  width: 300px;
+  margin: 0 auto;
+  color: white;
+  padding-bottom:3px;
+  line-height: 100px;
+}
+
+.top-main {
+background-image:url(mori.JPG);
+background-size: cover;
+height: 590px;
+}
+
+.middle-main {
+background-color: aliceblue;
+height: 500px;
+}
+
+.bottom-main {
+background-color:whitesmoke;
+height: 500px;
+}
+
+.footer {
+background-color:#cfeded;
+height: 50px;
 }
