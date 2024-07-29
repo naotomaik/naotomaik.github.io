@@ -12,20 +12,55 @@ background-color:#cfeded;
   font-size: 40px;
 }
 
+
+.onsen {
+  width: 300px;
+  height: 300px;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index:4;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
 .memo {
   display:inline-block;
-  background-color: aliceblue;
-  float:left
+  background-color: #deb887;
+  float:left;
+  position: relative;
+  z-index: 4;
+  padding: 10px 15px 15px 10px;
+  margin: 10px 0 0 10px;
+  font-size: 20px;
+  box-shadow: #000 5px 5px;
+}
+
+.memo img {
+width: 250px;
+height: 150px;
+margin-top: 150px;
+}
+
+.memo h3 {
+  text-align: center;
 }
 
 .profile img{
-  display: block;
+  display: inline-block;
   width: 300px;
   margin:0 auto;
+  padding: 0 30px;
 }
 
 .profile {
-  background-color: rgba(255,255,255,0.5)
+  margin: 0 auto;
+  width: 500px;
+  position: relative;
+  z-index: 3;
+  flex-direction: column;
+  
 }
 
 .profile h1 {
@@ -52,15 +87,24 @@ background-color:#cfeded;
   width: 300px;
   margin: 0 auto;
   color: white;
-  padding-bottom:3px;
-  line-height: 100px;
+  line-height: px;
 }
 
 .top-main {
 background-image:url(mori.jpg);
 background-size: cover;
-height: 590px;
+height: 592px;
+position: relative;
+z-index: 1;
 }
+.gizi {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 
 .middle-main {
 background-color: aliceblue;
